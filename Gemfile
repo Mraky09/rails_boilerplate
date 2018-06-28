@@ -22,3 +22,8 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'dotenv-rails'
+gem 'grape', '~> 1.0', '>= 1.0.3'
+gem 'rack-cors', :require => 'rack/cors'
+gem 'grape_fast_jsonapi'
+gem 'config'
+gem 'kaminari'
